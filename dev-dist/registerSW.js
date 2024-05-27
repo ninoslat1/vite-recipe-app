@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/vite-recipe-app/dev-sw.js?dev-sw', { scope: '/vite-recipe-app/', type: 'classic' })

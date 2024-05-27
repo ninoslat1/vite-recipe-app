@@ -10,12 +10,18 @@ const manifestPlugin:Partial<VitePWAOptions> = {
   includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.png"],
   manifest: {
     name: 'vite-recipe-app',
-    short_name: 'Aplikasi Resep',
+    short_name: 'vite-recipe-app',
     description: 'Aplikasi pembuatan kartu resep makanan atau minuman',
     icons: [
       {
         "src": "/pwa-192x192.png",
         "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/pwa-144x144.png",
+        "sizes": "144x144",
         "type": "image/png",
         "purpose": "any"
       },
@@ -43,8 +49,8 @@ const manifestPlugin:Partial<VitePWAOptions> = {
     display: 'standalone',
     scope: '/',
     start_url: '/',
-    orientation: 'portrait'
-  }
+    orientation: 'portrait',
+  },
 }
 
 // https://vitejs.dev/config/
