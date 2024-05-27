@@ -55,7 +55,7 @@ const manifestPlugin:Partial<VitePWAOptions> = {
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vite-recipe-app/',
+  base: './',
   plugins: [
     react(),
     VitePWA(manifestPlugin)
