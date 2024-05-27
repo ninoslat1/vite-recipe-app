@@ -7,7 +7,7 @@ const manifestPlugin:Partial<VitePWAOptions> = {
   devOptions: {
     enabled: true
   },
-  includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.png"],
+  includeAssets: ["favicon-16x16.png", "favicon-32x32.png", "apple-touch-icon.png", "pwa-144x144.png", "pwa-192x192.png", "pwa-512x512.png", "pwa-maskable-192x192.png", "pwa-maskable-512x512.png"],
   manifest: {
     name: 'vite-recipe-app',
     short_name: 'vite-recipe-app',
@@ -35,13 +35,13 @@ const manifestPlugin:Partial<VitePWAOptions> = {
         "src": "/pwa-maskable-192x192.png",
         "sizes": "192x192",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "maskable any"
       },
       {
         "src": "/pwa-maskable-512x512.png",
         "sizes": "512x512",
         "type": "image/png",
-        "purpose": "maskable"
+        "purpose": "maskable any"
       }
     ],
     theme_color: '#ffffff',
