@@ -35,13 +35,13 @@ const manifestPlugin:Partial<VitePWAOptions> = {
         "src": "/pwa-maskable-192x192.png",
         "sizes": "192x192",
         "type": "image/png",
-        "purpose": "maskable any"
+        "purpose": "maskable"
       },
       {
         "src": "/pwa-maskable-512x512.png",
         "sizes": "512x512",
         "type": "image/png",
-        "purpose": "maskable any"
+        "purpose": "maskable"
       }
     ],
     theme_color: '#ffffff',
