@@ -60,11 +60,3 @@ jobs:
 
     - name: Build project
       run: npm run build
-
-    - name: Deploy to hosting
-      # Ganti dengan langkah-langkah deployment sesuai hosting yang Anda gunakan
-      run: |
-        git add dist -f
-        git commit -m "update gh page"
-        git subtree push --prefix dist origin gh-pages
-        echo "Thank you for updating your loved page"
