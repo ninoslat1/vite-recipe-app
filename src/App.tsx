@@ -18,7 +18,7 @@ function App() {
 
   return (
     <Box
-      display="flex"
+      sx={{display: { sm: 'block', md: "flex" }}}
       flexDirection="row"
       justifyContent="space-evenly"
     >
