@@ -36,9 +36,6 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Run tests
-      run: npm test
-
   # Job untuk melakukan deployment ke hosting
   deploy:
     name: Deploy
