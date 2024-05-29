@@ -3,3 +3,5 @@ export type TInputComponent = {
     value:string
 }
 
+export type TLayout = 'resource' | 'step' | 'picture'
+
