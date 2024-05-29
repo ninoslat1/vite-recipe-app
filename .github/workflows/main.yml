@@ -11,8 +11,9 @@ on:
       - main
 
 jobs:
-  build:
-    name: Build GitHub
+
+  build-and-test:
+    name: Build and Test
     runs-on: ubuntu-latest
 
     steps:
