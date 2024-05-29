@@ -10,4 +10,4 @@ echo 'Enter the name of the branch:'
 
 read branch
 
-git push origin main
+git push
