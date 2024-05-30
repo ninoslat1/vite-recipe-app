@@ -60,6 +60,16 @@ export default defineConfig({
     react(),
     VitePWA(manifestPlugin)
   ],
+  preview: {
+    port: 8081,
+    strictPort: true,
+   },
+   server: {
+    port: 8081,
+    strictPort: true,
+    host: true,
+    origin: "http://0.0.0.0:8081",
+   },
   optimizeDeps: {
     include: ['@emotion/styled']
   }
